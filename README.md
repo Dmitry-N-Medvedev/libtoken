@@ -28,3 +28,12 @@ Create/validate/read authorization token.
 
 1. JWT: JSON
 2. Google Macaroons: [flatbuffers](http://bit.ly/37tTwB1)
+
+## components
+
+1. [libtokenserver](packages/libtokenserver/README.md)
+
+## how to run tests
+
+1. to run all the tests run `./bin/test-all` from the repo's root directory
+2. to run scoped tests go to a sub-directory and run `pnpm run test` from there

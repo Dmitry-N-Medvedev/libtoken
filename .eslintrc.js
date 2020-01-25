@@ -34,5 +34,6 @@ module.exports = {
       mjs: 'always',
       json: 'always',
     }],
+    'node/shebang': 0,
   },
 };

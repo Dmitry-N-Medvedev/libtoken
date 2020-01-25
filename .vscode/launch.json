@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "libgen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}/packages/libtokenserver",
+      "program": "${workspaceFolder}/node_modules/.pnpm/registry.npmjs.org/mocha/7.0.0/node_modules/mocha/bin/_mocha",
+      "args": [
+        "--no-config",
+        "--no-opts",
+        "specs/libgen.spec.js"
+      ],
+      "env": {
+        "NODE_DEBUG": "libgen"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "libcli",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}/packages/libtokenserver",
+      "program": "${workspaceFolder}/node_modules/.pnpm/registry.npmjs.org/mocha/7.0.0/node_modules/mocha/bin/_mocha",
+      "args": [
+        "--no-config",
+        "--no-opts",
+        "specs/libcli.spec.js"
+      ],
+      "env": {
+        "NODE_DEBUG": "LIBCLI"
+      }
+    }
+  ]
+}
