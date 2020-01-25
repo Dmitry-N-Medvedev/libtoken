@@ -3,10 +3,10 @@
 const commander = require('commander');
 const {
   version,
-} = require('./package.json');
+} = require('../package.json');
 const {
   generate,
-} = require('./lib/libcli');
+} = require('../lib/libcli');
 
 (async () => {
   const program = new commander.Command();

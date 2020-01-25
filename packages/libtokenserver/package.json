@@ -9,7 +9,7 @@
   "engineStrict": true,
   "main": "cli.js",
   "bin": {
-    "gen-root-keys": "./cli.js"
+    "gen-root-keys": "./bin/cli.js"
   },
   "scripts": {
     "lint": "eslint ./",
