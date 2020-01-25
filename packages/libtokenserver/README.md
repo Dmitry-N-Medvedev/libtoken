@@ -2,7 +2,7 @@
 
 ## purpose of the library
 
-1. generate secret (SK) and public (PK) key pair (via a standalone console program)
+1. generate secret (SK) and public (PK) key pair (via the `gen-root-keys` console program - see below)
 2. generate certificate (CERT) using the `SK` (?)
 3. authenticate `CERT`
 4. generate `token` for a `CERT`
