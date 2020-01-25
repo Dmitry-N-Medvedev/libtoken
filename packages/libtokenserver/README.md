@@ -16,3 +16,7 @@ Run from this directory: `pnpm link` to make the `gen-root-keys` command availab
 To generate private and public keys into files run `gen-root-keys --destination ./keys --prefix token-server`
 
 `NB`: both the `--destination` and `--prefix` parameters are required.
+
+## how to run tests
+
+run `pnpm run test`
