@@ -28,3 +28,7 @@ Create/validate/read authorization token.
 
 1. JWT: JSON
 2. Google Macaroons: [flatbuffers](http://bit.ly/37tTwB1)
+
+## libtokenserver
+
+see: [readme](packages/libtokenserver/README.md)
